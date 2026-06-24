@@ -27,7 +27,7 @@ php artisan key:generate
 ### 3. Adatbázis létrehozása
 
 ```bash
-php artisan migrate
+php artisan migrate --seed
 ```
 
 ### 4. Szerver indítása
@@ -40,13 +40,12 @@ A weboldal elérhető: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 Az admin panel elérhető: [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
 
-## Admin fiók létrehozása
+## Bejelentkezési adatok
 
-Az admin fiókot az alábbi paranccsal lehet létrehozni:
-
-```bash
-php artisan db:seed --class=AdminUserSeeder
-```
+| Mező | Érték |
+|---|---|
+| E-mail | admin@planetarium.hu |
+| Jelszó | planetarium2025 |
 
 ## Technológiák
 

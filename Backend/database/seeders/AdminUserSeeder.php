@@ -15,6 +15,7 @@ class AdminUserSeeder extends Seeder
             [
                 'name'     => 'Admin',
                 'password' => Hash::make('planetarium2025'),
+                'is_admin' => true,
             ]
         );
 
